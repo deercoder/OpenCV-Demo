@@ -35,3 +35,4 @@ http://stackoverflow.com/questions/36204781/error-package-android-hardware-camer
 
 2. fix the build process:
 1) modify the minVersinosdk and compileVersionsdk:
+2) add the dependance module: in File - Project structure - Dependance - App - xxx
