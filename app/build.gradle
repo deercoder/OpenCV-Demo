@@ -17,6 +17,11 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    // New code
+    ndk {
+        moduleName = "OpenCVDemo"
+    }
+// New code finished
 }
 
 dependencies {

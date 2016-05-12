@@ -29,9 +29,6 @@ public class MainActivity extends Activity {
                     break;
                 case LoaderCallbackInterface.INIT_FAILED:
                     Log.i(TAG,"Init Failed");
-
-
-
                     break;
                 case LoaderCallbackInterface.INSTALL_CANCELED:
                     Log.i(TAG,"Install Cancelled");
@@ -51,11 +48,27 @@ public class MainActivity extends Activity {
     };
 
     @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        Log.i(TAG, "aaaaa");
+    }
+
+    @Override
     protected void onResume() {
         super.onResume();
         //initialize OpenCV manager
         OpenCVLoader.initAsync(OpenCVLoader.OPENCV_VERSION_2_4_9, this, mLoaderCallback);
     }
+
+    // new code
+    static {
+        System.loadLibrary("OpenCVDemo");
+    }
+    public native String getMsgFromJni();
+    // new code done
+
 }
 
 
