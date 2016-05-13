@@ -18,6 +18,11 @@ model {
                 proguardFiles.add(file('proguard-android.txt'))
             }
         }
+        // New code
+        ndk {
+            moduleName = "hello-android-jni"
+        }
+        // New code finished
     }
 }
 

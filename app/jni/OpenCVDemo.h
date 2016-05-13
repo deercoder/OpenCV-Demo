@@ -1,8 +1,0 @@
-//
-// Created by changliu on 5/12/16.
-//
-
-#ifndef OPENCVDEMO_OPENCVDEMO_CPP_H
-#define OPENCVDEMO_OPENCVDEMO_CPP_H
-
-#endif //OPENCVDEMO_OPENCVDEMO_CPP_H

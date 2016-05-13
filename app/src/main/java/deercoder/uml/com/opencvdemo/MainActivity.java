@@ -52,7 +52,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Log.i(TAG, "aaaaa");
+        Log.i(TAG, getMsgFromJni());
     }
 
     @Override
@@ -64,7 +64,7 @@ public class MainActivity extends Activity {
 
     // new code
     static {
-        System.loadLibrary("OpenCVDemo");
+        System.loadLibrary("hello-android-jni");
     }
     public native String getMsgFromJni();
     // new code done

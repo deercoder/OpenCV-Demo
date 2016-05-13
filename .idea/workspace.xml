@@ -6,28 +6,18 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="aa" />
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="hello" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
     <option name="TOOL_WINDOW_REGEXP_FILTER" value="false" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68f2463f-dc65-42c6-8654-52327f725cf1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_23_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_annotations_23_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_23_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_23_2_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/jni/OpenCVDemo.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/jni/OpenCVDemo.h" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OpenCVDemo.iml" afterPath="$PROJECT_DIR$/OpenCVDemo.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary310/build.gradle" afterPath="$PROJECT_DIR$/openCVLibrary310/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary310/openCVLibrary310.iml" afterPath="$PROJECT_DIR$/openCVLibrary310/openCVLibrary310.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/deercoder/uml/com/opencvdemo/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/deercoder/uml/com/opencvdemo/MainActivity.java" />
     </list>
     <ignored path="OpenCVDemo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,11 +45,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file:///media/changliu/Research/github/OpenCVDemo/app/src/main/java/deercoder/uml/com/opencvdemo/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5380435">
+              <caret line="54" column="28" selection-start-line="54" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hello-android-jni.c" pinned="false" current-in-tab="false">
+        <entry file="file:///media/changliu/Research/github/OpenCVDemo/app/src/main/jni/hello-android-jni.c">
+          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -68,8 +70,8 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file:///media/changliu/Research/github/OpenCVDemo/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.379311">
-              <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -78,8 +80,18 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file:///media/changliu/Research/github/OpenCVDemo/openCVLibrary310/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.1724138">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gradle-wrapper.properties" pinned="false" current-in-tab="false">
+        <entry file="file:///media/changliu/Research/github/OpenCVDemo/gradle/wrapper/gradle-wrapper.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -88,8 +100,8 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.724138">
-              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -98,7 +110,7 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.1034484">
+            <state vertical-scroll-proportion="0.0">
               <caret line="7" column="68" selection-start-line="7" selection-start-column="68" selection-end-line="7" selection-end-column="68" />
               <folding />
             </state>
@@ -108,38 +120,18 @@
       <file leaf-file-name="gradle-wrapper.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.9310346">
+            <state vertical-scroll-proportion="0.0">
               <caret line="5" column="70" selection-start-line="5" selection-start-column="70" selection-end-line="5" selection-end-column="70" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/openCVLibrary310/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33452594">
-              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OpenCVDemo.h" pinned="false" current-in-tab="false">
-        <entry file="file:///media/changliu/Research/github/OpenCVDemo/app/jni/OpenCVDemo.h">
-          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OpenCVDemo.cpp" pinned="false" current-in-tab="false">
-        <entry file="file:///media/changliu/Research/github/OpenCVDemo/app/jni/OpenCVDemo.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="65" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="65" />
+              <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -367,6 +359,146 @@
                 <option name="name" value="compileDebugUnitTestSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Compiles the C source 'hello-android-jni:mainC' of shared library 'hello-android-jni:arm64-v8a:debug:sharedLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="compileHello-android-jniArm64-v8aDebugSharedLibraryHello-android-jniMainC" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the C source 'hello-android-jni:mainC' of static library 'hello-android-jni:arm64-v8a:debug:staticLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="compileHello-android-jniArm64-v8aDebugStaticLibraryHello-android-jniMainC" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the C source 'hello-android-jni:mainC' of shared library 'hello-android-jni:arm64-v8a:release:sharedLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="compileHello-android-jniArm64-v8aReleaseSharedLibraryHello-android-jniMainC" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the C source 'hello-android-jni:mainC' of static library 'hello-android-jni:arm64-v8a:release:staticLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="compileHello-android-jniArm64-v8aReleaseStaticLibraryHello-android-jniMainC" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the C source 'hello-android-jni:mainC' of shared library 'hello-android-jni:armeabi-v7a:debug:sharedLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="compileHello-android-jniArmeabi-v7aDebugSharedLibraryHello-android-jniMainC" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the C source 'hello-android-jni:mainC' of static library 'hello-android-jni:armeabi-v7a:debug:staticLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="compileHello-android-jniArmeabi-v7aDebugStaticLibraryHello-android-jniMainC" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the C source 'hello-android-jni:mainC' of shared library 'hello-android-jni:armeabi-v7a:release:sharedLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="compileHello-android-jniArmeabi-v7aReleaseSharedLibraryHello-android-jniMainC" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the C source 'hello-android-jni:mainC' of static library 'hello-android-jni:armeabi-v7a:release:staticLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="compileHello-android-jniArmeabi-v7aReleaseStaticLibraryHello-android-jniMainC" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the C source 'hello-android-jni:mainC' of shared library 'hello-android-jni:armeabi:debug:sharedLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="compileHello-android-jniArmeabiDebugSharedLibraryHello-android-jniMainC" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the C source 'hello-android-jni:mainC' of static library 'hello-android-jni:armeabi:debug:staticLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="compileHello-android-jniArmeabiDebugStaticLibraryHello-android-jniMainC" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the C source 'hello-android-jni:mainC' of shared library 'hello-android-jni:armeabi:release:sharedLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="compileHello-android-jniArmeabiReleaseSharedLibraryHello-android-jniMainC" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the C source 'hello-android-jni:mainC' of static library 'hello-android-jni:armeabi:release:staticLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="compileHello-android-jniArmeabiReleaseStaticLibraryHello-android-jniMainC" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the C source 'hello-android-jni:mainC' of shared library 'hello-android-jni:mips64:debug:sharedLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="compileHello-android-jniMips64DebugSharedLibraryHello-android-jniMainC" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the C source 'hello-android-jni:mainC' of static library 'hello-android-jni:mips64:debug:staticLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="compileHello-android-jniMips64DebugStaticLibraryHello-android-jniMainC" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the C source 'hello-android-jni:mainC' of shared library 'hello-android-jni:mips64:release:sharedLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="compileHello-android-jniMips64ReleaseSharedLibraryHello-android-jniMainC" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the C source 'hello-android-jni:mainC' of static library 'hello-android-jni:mips64:release:staticLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="compileHello-android-jniMips64ReleaseStaticLibraryHello-android-jniMainC" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the C source 'hello-android-jni:mainC' of shared library 'hello-android-jni:mips:debug:sharedLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="compileHello-android-jniMipsDebugSharedLibraryHello-android-jniMainC" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the C source 'hello-android-jni:mainC' of static library 'hello-android-jni:mips:debug:staticLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="compileHello-android-jniMipsDebugStaticLibraryHello-android-jniMainC" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the C source 'hello-android-jni:mainC' of shared library 'hello-android-jni:mips:release:sharedLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="compileHello-android-jniMipsReleaseSharedLibraryHello-android-jniMainC" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the C source 'hello-android-jni:mainC' of static library 'hello-android-jni:mips:release:staticLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="compileHello-android-jniMipsReleaseStaticLibraryHello-android-jniMainC" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the C source 'hello-android-jni:mainC' of shared library 'hello-android-jni:x86:debug:sharedLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="compileHello-android-jniX86DebugSharedLibraryHello-android-jniMainC" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the C source 'hello-android-jni:mainC' of static library 'hello-android-jni:x86:debug:staticLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="compileHello-android-jniX86DebugStaticLibraryHello-android-jniMainC" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the C source 'hello-android-jni:mainC' of shared library 'hello-android-jni:x86:release:sharedLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="compileHello-android-jniX86ReleaseSharedLibraryHello-android-jniMainC" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the C source 'hello-android-jni:mainC' of static library 'hello-android-jni:x86:release:staticLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="compileHello-android-jniX86ReleaseStaticLibraryHello-android-jniMainC" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the C source 'hello-android-jni:mainC' of shared library 'hello-android-jni:x86_64:debug:sharedLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="compileHello-android-jniX86_64DebugSharedLibraryHello-android-jniMainC" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the C source 'hello-android-jni:mainC' of static library 'hello-android-jni:x86_64:debug:staticLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="compileHello-android-jniX86_64DebugStaticLibraryHello-android-jniMainC" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the C source 'hello-android-jni:mainC' of shared library 'hello-android-jni:x86_64:release:sharedLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="compileHello-android-jniX86_64ReleaseSharedLibraryHello-android-jniMainC" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the C source 'hello-android-jni:mainC' of static library 'hello-android-jni:x86_64:release:staticLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="compileHello-android-jniX86_64ReleaseStaticLibraryHello-android-jniMainC" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
                 <option name="name" value="compileLint" />
               </ExternalTaskPojo>
@@ -412,6 +544,76 @@
                 <option name="description" value="Installs and runs the tests for debug on connected devices." />
                 <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
                 <option name="name" value="connectedDebugAndroidTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Creates static library 'hello-android-jni:arm64-v8a:debug:staticLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="createHello-android-jniArm64-v8aDebugStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Creates static library 'hello-android-jni:arm64-v8a:release:staticLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="createHello-android-jniArm64-v8aReleaseStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Creates static library 'hello-android-jni:armeabi-v7a:debug:staticLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="createHello-android-jniArmeabi-v7aDebugStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Creates static library 'hello-android-jni:armeabi-v7a:release:staticLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="createHello-android-jniArmeabi-v7aReleaseStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Creates static library 'hello-android-jni:armeabi:debug:staticLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="createHello-android-jniArmeabiDebugStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Creates static library 'hello-android-jni:armeabi:release:staticLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="createHello-android-jniArmeabiReleaseStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Creates static library 'hello-android-jni:mips64:debug:staticLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="createHello-android-jniMips64DebugStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Creates static library 'hello-android-jni:mips64:release:staticLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="createHello-android-jniMips64ReleaseStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Creates static library 'hello-android-jni:mips:debug:staticLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="createHello-android-jniMipsDebugStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Creates static library 'hello-android-jni:mips:release:staticLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="createHello-android-jniMipsReleaseStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Creates static library 'hello-android-jni:x86:debug:staticLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="createHello-android-jniX86DebugStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Creates static library 'hello-android-jni:x86:release:staticLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="createHello-android-jniX86ReleaseStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Creates static library 'hello-android-jni:x86_64:debug:staticLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="createHello-android-jniX86_64DebugStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Creates static library 'hello-android-jni:x86_64:release:staticLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="createHello-android-jniX86_64ReleaseStaticLibrary" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Installs and runs instrumentation tests using all Device Providers." />
@@ -484,6 +686,146 @@
                 <option name="name" value="generateReleaseSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Assembles shared library 'hello-android-jni:arm64-v8a:debug:sharedLibrary'." />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="hello-android-jniArm64-v8aDebugSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles static library 'hello-android-jni:arm64-v8a:debug:staticLibrary'." />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="hello-android-jniArm64-v8aDebugStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles shared library 'hello-android-jni:arm64-v8a:release:sharedLibrary'." />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="hello-android-jniArm64-v8aReleaseSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles static library 'hello-android-jni:arm64-v8a:release:staticLibrary'." />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="hello-android-jniArm64-v8aReleaseStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles shared library 'hello-android-jni:armeabi-v7a:debug:sharedLibrary'." />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="hello-android-jniArmeabi-v7aDebugSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles static library 'hello-android-jni:armeabi-v7a:debug:staticLibrary'." />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="hello-android-jniArmeabi-v7aDebugStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles shared library 'hello-android-jni:armeabi-v7a:release:sharedLibrary'." />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="hello-android-jniArmeabi-v7aReleaseSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles static library 'hello-android-jni:armeabi-v7a:release:staticLibrary'." />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="hello-android-jniArmeabi-v7aReleaseStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles shared library 'hello-android-jni:armeabi:debug:sharedLibrary'." />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="hello-android-jniArmeabiDebugSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles static library 'hello-android-jni:armeabi:debug:staticLibrary'." />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="hello-android-jniArmeabiDebugStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles shared library 'hello-android-jni:armeabi:release:sharedLibrary'." />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="hello-android-jniArmeabiReleaseSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles static library 'hello-android-jni:armeabi:release:staticLibrary'." />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="hello-android-jniArmeabiReleaseStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles shared library 'hello-android-jni:mips64:debug:sharedLibrary'." />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="hello-android-jniMips64DebugSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles static library 'hello-android-jni:mips64:debug:staticLibrary'." />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="hello-android-jniMips64DebugStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles shared library 'hello-android-jni:mips64:release:sharedLibrary'." />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="hello-android-jniMips64ReleaseSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles static library 'hello-android-jni:mips64:release:staticLibrary'." />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="hello-android-jniMips64ReleaseStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles shared library 'hello-android-jni:mips:debug:sharedLibrary'." />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="hello-android-jniMipsDebugSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles static library 'hello-android-jni:mips:debug:staticLibrary'." />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="hello-android-jniMipsDebugStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles shared library 'hello-android-jni:mips:release:sharedLibrary'." />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="hello-android-jniMipsReleaseSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles static library 'hello-android-jni:mips:release:staticLibrary'." />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="hello-android-jniMipsReleaseStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles shared library 'hello-android-jni:x86:debug:sharedLibrary'." />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="hello-android-jniX86DebugSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles static library 'hello-android-jni:x86:debug:staticLibrary'." />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="hello-android-jniX86DebugStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles shared library 'hello-android-jni:x86:release:sharedLibrary'." />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="hello-android-jniX86ReleaseSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles static library 'hello-android-jni:x86:release:staticLibrary'." />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="hello-android-jniX86ReleaseStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles shared library 'hello-android-jni:x86_64:debug:sharedLibrary'." />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="hello-android-jniX86_64DebugSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles static library 'hello-android-jni:x86_64:debug:staticLibrary'." />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="hello-android-jniX86_64DebugStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles shared library 'hello-android-jni:x86_64:release:sharedLibrary'." />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="hello-android-jniX86_64ReleaseSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles static library 'hello-android-jni:x86_64:release:staticLibrary'." />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="hello-android-jniX86_64ReleaseStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
                 <option name="name" value="incrementalDebugAndroidTestJavaCompilationSafeguard" />
               </ExternalTaskPojo>
@@ -520,6 +862,76 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
                 <option name="name" value="jarReleaseClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Links shared library 'hello-android-jni:arm64-v8a:debug:sharedLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="linkHello-android-jniArm64-v8aDebugSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Links shared library 'hello-android-jni:arm64-v8a:release:sharedLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="linkHello-android-jniArm64-v8aReleaseSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Links shared library 'hello-android-jni:armeabi-v7a:debug:sharedLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="linkHello-android-jniArmeabi-v7aDebugSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Links shared library 'hello-android-jni:armeabi-v7a:release:sharedLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="linkHello-android-jniArmeabi-v7aReleaseSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Links shared library 'hello-android-jni:armeabi:debug:sharedLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="linkHello-android-jniArmeabiDebugSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Links shared library 'hello-android-jni:armeabi:release:sharedLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="linkHello-android-jniArmeabiReleaseSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Links shared library 'hello-android-jni:mips64:debug:sharedLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="linkHello-android-jniMips64DebugSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Links shared library 'hello-android-jni:mips64:release:sharedLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="linkHello-android-jniMips64ReleaseSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Links shared library 'hello-android-jni:mips:debug:sharedLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="linkHello-android-jniMipsDebugSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Links shared library 'hello-android-jni:mips:release:sharedLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="linkHello-android-jniMipsReleaseSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Links shared library 'hello-android-jni:x86:debug:sharedLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="linkHello-android-jniX86DebugSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Links shared library 'hello-android-jni:x86:release:sharedLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="linkHello-android-jniX86ReleaseSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Links shared library 'hello-android-jni:x86_64:debug:sharedLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="linkHello-android-jniX86_64DebugSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Links shared library 'hello-android-jni:x86_64:release:sharedLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="linkHello-android-jniX86_64ReleaseSharedLibrary" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs lint on all variants." />
@@ -593,6 +1005,118 @@
                 <option name="description" value="Creates a version of android.jar that's suitable for unit tests." />
                 <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
                 <option name="name" value="mockableAndroidJar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="ndkBuildArm64-v8aDebugSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="ndkBuildArm64-v8aDebugStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="ndkBuildArm64-v8aReleaseSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="ndkBuildArm64-v8aReleaseStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="ndkBuildArmeabi-v7aDebugSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="ndkBuildArmeabi-v7aDebugStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="ndkBuildArmeabi-v7aReleaseSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="ndkBuildArmeabi-v7aReleaseStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="ndkBuildArmeabiDebugSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="ndkBuildArmeabiDebugStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="ndkBuildArmeabiReleaseSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="ndkBuildArmeabiReleaseStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="ndkBuildMips64DebugSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="ndkBuildMips64DebugStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="ndkBuildMips64ReleaseSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="ndkBuildMips64ReleaseStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="ndkBuildMipsDebugSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="ndkBuildMipsDebugStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="ndkBuildMipsReleaseSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="ndkBuildMipsReleaseStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="ndkBuildX86DebugSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="ndkBuildX86DebugStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="ndkBuildX86ReleaseSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="ndkBuildX86ReleaseStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="ndkBuildX86_64DebugSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="ndkBuildX86_64DebugStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="ndkBuildX86_64ReleaseSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="ndkBuildX86_64ReleaseStaticLibrary" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Dummy task to hide other unwanted tasks in the task list." />
@@ -745,6 +1269,62 @@
                 <option name="description" value="Prints out all the source sets defined in this project." />
                 <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
                 <option name="name" value="sourceSets" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="stripSymbolsArm64-v8aDebugSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="stripSymbolsArm64-v8aReleaseSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="stripSymbolsArmeabi-v7aDebugSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="stripSymbolsArmeabi-v7aReleaseSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="stripSymbolsArmeabiDebugSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="stripSymbolsArmeabiReleaseSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="stripSymbolsMips64DebugSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="stripSymbolsMips64ReleaseSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="stripSymbolsMipsDebugSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="stripSymbolsMipsReleaseSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="stripSymbolsX86DebugSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="stripSymbolsX86ReleaseSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="stripSymbolsX86_64DebugSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo" />
+                <option name="name" value="stripSymbolsX86_64ReleaseSharedLibrary" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Run unit tests for all variants." />
@@ -1035,6 +1615,146 @@
                 <option name="name" value="compileDebugUnitTestSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Compiles the C source 'hello-android-jni:mainC' of shared library 'hello-android-jni:arm64-v8a:debug:sharedLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="compileHello-android-jniArm64-v8aDebugSharedLibraryHello-android-jniMainC" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the C source 'hello-android-jni:mainC' of static library 'hello-android-jni:arm64-v8a:debug:staticLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="compileHello-android-jniArm64-v8aDebugStaticLibraryHello-android-jniMainC" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the C source 'hello-android-jni:mainC' of shared library 'hello-android-jni:arm64-v8a:release:sharedLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="compileHello-android-jniArm64-v8aReleaseSharedLibraryHello-android-jniMainC" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the C source 'hello-android-jni:mainC' of static library 'hello-android-jni:arm64-v8a:release:staticLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="compileHello-android-jniArm64-v8aReleaseStaticLibraryHello-android-jniMainC" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the C source 'hello-android-jni:mainC' of shared library 'hello-android-jni:armeabi-v7a:debug:sharedLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="compileHello-android-jniArmeabi-v7aDebugSharedLibraryHello-android-jniMainC" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the C source 'hello-android-jni:mainC' of static library 'hello-android-jni:armeabi-v7a:debug:staticLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="compileHello-android-jniArmeabi-v7aDebugStaticLibraryHello-android-jniMainC" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the C source 'hello-android-jni:mainC' of shared library 'hello-android-jni:armeabi-v7a:release:sharedLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="compileHello-android-jniArmeabi-v7aReleaseSharedLibraryHello-android-jniMainC" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the C source 'hello-android-jni:mainC' of static library 'hello-android-jni:armeabi-v7a:release:staticLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="compileHello-android-jniArmeabi-v7aReleaseStaticLibraryHello-android-jniMainC" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the C source 'hello-android-jni:mainC' of shared library 'hello-android-jni:armeabi:debug:sharedLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="compileHello-android-jniArmeabiDebugSharedLibraryHello-android-jniMainC" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the C source 'hello-android-jni:mainC' of static library 'hello-android-jni:armeabi:debug:staticLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="compileHello-android-jniArmeabiDebugStaticLibraryHello-android-jniMainC" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the C source 'hello-android-jni:mainC' of shared library 'hello-android-jni:armeabi:release:sharedLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="compileHello-android-jniArmeabiReleaseSharedLibraryHello-android-jniMainC" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the C source 'hello-android-jni:mainC' of static library 'hello-android-jni:armeabi:release:staticLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="compileHello-android-jniArmeabiReleaseStaticLibraryHello-android-jniMainC" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the C source 'hello-android-jni:mainC' of shared library 'hello-android-jni:mips64:debug:sharedLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="compileHello-android-jniMips64DebugSharedLibraryHello-android-jniMainC" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the C source 'hello-android-jni:mainC' of static library 'hello-android-jni:mips64:debug:staticLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="compileHello-android-jniMips64DebugStaticLibraryHello-android-jniMainC" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the C source 'hello-android-jni:mainC' of shared library 'hello-android-jni:mips64:release:sharedLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="compileHello-android-jniMips64ReleaseSharedLibraryHello-android-jniMainC" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the C source 'hello-android-jni:mainC' of static library 'hello-android-jni:mips64:release:staticLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="compileHello-android-jniMips64ReleaseStaticLibraryHello-android-jniMainC" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the C source 'hello-android-jni:mainC' of shared library 'hello-android-jni:mips:debug:sharedLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="compileHello-android-jniMipsDebugSharedLibraryHello-android-jniMainC" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the C source 'hello-android-jni:mainC' of static library 'hello-android-jni:mips:debug:staticLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="compileHello-android-jniMipsDebugStaticLibraryHello-android-jniMainC" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the C source 'hello-android-jni:mainC' of shared library 'hello-android-jni:mips:release:sharedLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="compileHello-android-jniMipsReleaseSharedLibraryHello-android-jniMainC" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the C source 'hello-android-jni:mainC' of static library 'hello-android-jni:mips:release:staticLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="compileHello-android-jniMipsReleaseStaticLibraryHello-android-jniMainC" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the C source 'hello-android-jni:mainC' of shared library 'hello-android-jni:x86:debug:sharedLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="compileHello-android-jniX86DebugSharedLibraryHello-android-jniMainC" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the C source 'hello-android-jni:mainC' of static library 'hello-android-jni:x86:debug:staticLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="compileHello-android-jniX86DebugStaticLibraryHello-android-jniMainC" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the C source 'hello-android-jni:mainC' of shared library 'hello-android-jni:x86:release:sharedLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="compileHello-android-jniX86ReleaseSharedLibraryHello-android-jniMainC" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the C source 'hello-android-jni:mainC' of static library 'hello-android-jni:x86:release:staticLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="compileHello-android-jniX86ReleaseStaticLibraryHello-android-jniMainC" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the C source 'hello-android-jni:mainC' of shared library 'hello-android-jni:x86_64:debug:sharedLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="compileHello-android-jniX86_64DebugSharedLibraryHello-android-jniMainC" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the C source 'hello-android-jni:mainC' of static library 'hello-android-jni:x86_64:debug:staticLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="compileHello-android-jniX86_64DebugStaticLibraryHello-android-jniMainC" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the C source 'hello-android-jni:mainC' of shared library 'hello-android-jni:x86_64:release:sharedLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="compileHello-android-jniX86_64ReleaseSharedLibraryHello-android-jniMainC" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the C source 'hello-android-jni:mainC' of static library 'hello-android-jni:x86_64:release:staticLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="compileHello-android-jniX86_64ReleaseStaticLibraryHello-android-jniMainC" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
                 <option name="name" value="compileLint" />
               </ExternalTaskPojo>
@@ -1085,6 +1805,76 @@
                 <option name="description" value="Installs and runs the tests for debug on connected devices." />
                 <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
                 <option name="name" value="connectedDebugAndroidTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Creates static library 'hello-android-jni:arm64-v8a:debug:staticLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="createHello-android-jniArm64-v8aDebugStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Creates static library 'hello-android-jni:arm64-v8a:release:staticLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="createHello-android-jniArm64-v8aReleaseStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Creates static library 'hello-android-jni:armeabi-v7a:debug:staticLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="createHello-android-jniArmeabi-v7aDebugStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Creates static library 'hello-android-jni:armeabi-v7a:release:staticLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="createHello-android-jniArmeabi-v7aReleaseStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Creates static library 'hello-android-jni:armeabi:debug:staticLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="createHello-android-jniArmeabiDebugStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Creates static library 'hello-android-jni:armeabi:release:staticLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="createHello-android-jniArmeabiReleaseStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Creates static library 'hello-android-jni:mips64:debug:staticLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="createHello-android-jniMips64DebugStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Creates static library 'hello-android-jni:mips64:release:staticLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="createHello-android-jniMips64ReleaseStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Creates static library 'hello-android-jni:mips:debug:staticLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="createHello-android-jniMipsDebugStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Creates static library 'hello-android-jni:mips:release:staticLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="createHello-android-jniMipsReleaseStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Creates static library 'hello-android-jni:x86:debug:staticLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="createHello-android-jniX86DebugStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Creates static library 'hello-android-jni:x86:release:staticLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="createHello-android-jniX86ReleaseStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Creates static library 'hello-android-jni:x86_64:debug:staticLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="createHello-android-jniX86_64DebugStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Creates static library 'hello-android-jni:x86_64:release:staticLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="createHello-android-jniX86_64ReleaseStaticLibrary" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays all dependencies declared in project ':app'." />
@@ -1167,6 +1957,146 @@
                 <option name="name" value="generateReleaseSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Assembles shared library 'hello-android-jni:arm64-v8a:debug:sharedLibrary'." />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="hello-android-jniArm64-v8aDebugSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles static library 'hello-android-jni:arm64-v8a:debug:staticLibrary'." />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="hello-android-jniArm64-v8aDebugStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles shared library 'hello-android-jni:arm64-v8a:release:sharedLibrary'." />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="hello-android-jniArm64-v8aReleaseSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles static library 'hello-android-jni:arm64-v8a:release:staticLibrary'." />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="hello-android-jniArm64-v8aReleaseStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles shared library 'hello-android-jni:armeabi-v7a:debug:sharedLibrary'." />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="hello-android-jniArmeabi-v7aDebugSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles static library 'hello-android-jni:armeabi-v7a:debug:staticLibrary'." />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="hello-android-jniArmeabi-v7aDebugStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles shared library 'hello-android-jni:armeabi-v7a:release:sharedLibrary'." />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="hello-android-jniArmeabi-v7aReleaseSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles static library 'hello-android-jni:armeabi-v7a:release:staticLibrary'." />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="hello-android-jniArmeabi-v7aReleaseStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles shared library 'hello-android-jni:armeabi:debug:sharedLibrary'." />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="hello-android-jniArmeabiDebugSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles static library 'hello-android-jni:armeabi:debug:staticLibrary'." />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="hello-android-jniArmeabiDebugStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles shared library 'hello-android-jni:armeabi:release:sharedLibrary'." />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="hello-android-jniArmeabiReleaseSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles static library 'hello-android-jni:armeabi:release:staticLibrary'." />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="hello-android-jniArmeabiReleaseStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles shared library 'hello-android-jni:mips64:debug:sharedLibrary'." />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="hello-android-jniMips64DebugSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles static library 'hello-android-jni:mips64:debug:staticLibrary'." />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="hello-android-jniMips64DebugStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles shared library 'hello-android-jni:mips64:release:sharedLibrary'." />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="hello-android-jniMips64ReleaseSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles static library 'hello-android-jni:mips64:release:staticLibrary'." />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="hello-android-jniMips64ReleaseStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles shared library 'hello-android-jni:mips:debug:sharedLibrary'." />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="hello-android-jniMipsDebugSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles static library 'hello-android-jni:mips:debug:staticLibrary'." />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="hello-android-jniMipsDebugStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles shared library 'hello-android-jni:mips:release:sharedLibrary'." />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="hello-android-jniMipsReleaseSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles static library 'hello-android-jni:mips:release:staticLibrary'." />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="hello-android-jniMipsReleaseStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles shared library 'hello-android-jni:x86:debug:sharedLibrary'." />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="hello-android-jniX86DebugSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles static library 'hello-android-jni:x86:debug:staticLibrary'." />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="hello-android-jniX86DebugStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles shared library 'hello-android-jni:x86:release:sharedLibrary'." />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="hello-android-jniX86ReleaseSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles static library 'hello-android-jni:x86:release:staticLibrary'." />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="hello-android-jniX86ReleaseStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles shared library 'hello-android-jni:x86_64:debug:sharedLibrary'." />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="hello-android-jniX86_64DebugSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles static library 'hello-android-jni:x86_64:debug:staticLibrary'." />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="hello-android-jniX86_64DebugStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles shared library 'hello-android-jni:x86_64:release:sharedLibrary'." />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="hello-android-jniX86_64ReleaseSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles static library 'hello-android-jni:x86_64:release:staticLibrary'." />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="hello-android-jniX86_64ReleaseStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays a help message." />
                 <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
                 <option name="name" value="help" />
@@ -1208,6 +2138,76 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
                 <option name="name" value="jarReleaseClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Links shared library 'hello-android-jni:arm64-v8a:debug:sharedLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="linkHello-android-jniArm64-v8aDebugSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Links shared library 'hello-android-jni:arm64-v8a:release:sharedLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="linkHello-android-jniArm64-v8aReleaseSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Links shared library 'hello-android-jni:armeabi-v7a:debug:sharedLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="linkHello-android-jniArmeabi-v7aDebugSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Links shared library 'hello-android-jni:armeabi-v7a:release:sharedLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="linkHello-android-jniArmeabi-v7aReleaseSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Links shared library 'hello-android-jni:armeabi:debug:sharedLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="linkHello-android-jniArmeabiDebugSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Links shared library 'hello-android-jni:armeabi:release:sharedLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="linkHello-android-jniArmeabiReleaseSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Links shared library 'hello-android-jni:mips64:debug:sharedLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="linkHello-android-jniMips64DebugSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Links shared library 'hello-android-jni:mips64:release:sharedLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="linkHello-android-jniMips64ReleaseSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Links shared library 'hello-android-jni:mips:debug:sharedLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="linkHello-android-jniMipsDebugSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Links shared library 'hello-android-jni:mips:release:sharedLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="linkHello-android-jniMipsReleaseSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Links shared library 'hello-android-jni:x86:debug:sharedLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="linkHello-android-jniX86DebugSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Links shared library 'hello-android-jni:x86:release:sharedLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="linkHello-android-jniX86ReleaseSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Links shared library 'hello-android-jni:x86_64:debug:sharedLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="linkHello-android-jniX86_64DebugSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Links shared library 'hello-android-jni:x86_64:release:sharedLibrary'" />
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="linkHello-android-jniX86_64ReleaseSharedLibrary" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs lint on all variants." />
@@ -1286,6 +2286,118 @@
                 <option name="description" value="Displays the configuration model of project ':app'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
                 <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="ndkBuildArm64-v8aDebugSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="ndkBuildArm64-v8aDebugStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="ndkBuildArm64-v8aReleaseSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="ndkBuildArm64-v8aReleaseStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="ndkBuildArmeabi-v7aDebugSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="ndkBuildArmeabi-v7aDebugStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="ndkBuildArmeabi-v7aReleaseSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="ndkBuildArmeabi-v7aReleaseStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="ndkBuildArmeabiDebugSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="ndkBuildArmeabiDebugStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="ndkBuildArmeabiReleaseSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="ndkBuildArmeabiReleaseStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="ndkBuildMips64DebugSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="ndkBuildMips64DebugStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="ndkBuildMips64ReleaseSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="ndkBuildMips64ReleaseStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="ndkBuildMipsDebugSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="ndkBuildMipsDebugStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="ndkBuildMipsReleaseSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="ndkBuildMipsReleaseStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="ndkBuildX86DebugSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="ndkBuildX86DebugStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="ndkBuildX86ReleaseSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="ndkBuildX86ReleaseStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="ndkBuildX86_64DebugSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="ndkBuildX86_64DebugStaticLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="ndkBuildX86_64ReleaseSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="ndkBuildX86_64ReleaseStaticLibrary" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Dummy task to hide other unwanted tasks in the task list." />
@@ -1448,6 +2560,62 @@
                 <option name="description" value="Prints out all the source sets defined in this project." />
                 <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
                 <option name="name" value="sourceSets" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="stripSymbolsArm64-v8aDebugSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="stripSymbolsArm64-v8aReleaseSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="stripSymbolsArmeabi-v7aDebugSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="stripSymbolsArmeabi-v7aReleaseSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="stripSymbolsArmeabiDebugSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="stripSymbolsArmeabiReleaseSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="stripSymbolsMips64DebugSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="stripSymbolsMips64ReleaseSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="stripSymbolsMipsDebugSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="stripSymbolsMipsReleaseSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="stripSymbolsX86DebugSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="stripSymbolsX86ReleaseSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="stripSymbolsX86_64DebugSharedLibrary" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="/media/changliu/Research/github/OpenCVDemo/app" />
+                <option name="name" value="stripSymbolsX86_64ReleaseSharedLibrary" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the tasks runnable from project ':app'." />
@@ -2167,7 +3335,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="5852015895296" />
+        <entry key="$PROJECT_DIR$" value="5852017477600" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -2584,15 +3752,17 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="/media/changliu/Research/github/OpenCVDemo/app/src/main/AndroidManifest.xml" />
-        <option value="/media/changliu/Research/github/OpenCVDemo/app/src/main/java/deercoder/uml/com/opencvdemo/MainActivity.java" />
         <option value="/media/changliu/Research/github/OpenCVDemo/app/jni/OpenCVDemo.cpp.cpp" />
         <option value="/media/changliu/Research/github/OpenCVDemo/app/jni/OpenCVDemo.cpp" />
         <option value="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="/media/changliu/Research/github/OpenCVDemo/app/build.gradle" />
         <option value="/media/changliu/Research/github/OpenCVDemo/openCVLibrary310/build.gradle" />
         <option value="$PROJECT_DIR$/openCVLibrary310/build.gradle" />
+        <option value="/media/changliu/Research/github/OpenCVDemo/app/build.gradle" />
+        <option value="/media/changliu/Research/github/OpenCVDemo/app/src/main/jni/hello-android-jni.c" />
+        <option value="/media/changliu/Research/github/OpenCVDemo/build.gradle" />
+        <option value="/media/changliu/Research/github/OpenCVDemo/app/src/main/java/deercoder/uml/com/opencvdemo/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -2642,67 +3812,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane />
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OpenCVDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OpenCVDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OpenCVDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OpenCVDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OpenCVDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="openCVLibrary310" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="AndroidView">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OpenCVDemo" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gradle Scripts" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OpenCVDemo" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.NonAndroidModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -2733,7 +3842,182 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenCVDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenCVDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenCVDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenCVDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenCVDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gradle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wrapper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenCVDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenCVDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenCVDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenCVDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenCVDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenCVDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenCVDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenCVDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jni" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenCVDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenCVDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="opencvdemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scratches">
+        <subPane />
+      </pane>
+      <pane id="AndroidView">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenCVDemo" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle Scripts" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenCVDemo" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.NonAndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
         <subPane />
       </pane>
     </panes>
@@ -2746,7 +4030,7 @@
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="a76c3148" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Nexus_6_API_23" />
-    <property name="FullScreen" value="false" />
+    <property name="device.picker.selection" value="a76c3148" />
   </component>
   <component name="RecentsManager">
     <key name="android.template.packageName">
@@ -2754,6 +4038,39 @@
     </key>
   </component>
   <component name="RunManager" selected="Android Application.app">
+    <configuration default="true" type="AndroidNativeRunConfigurationType" factoryName="Android Native">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Hybrid" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <Native>
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+      </Native>
+      <Hybrid>
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+      </Hybrid>
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -2869,8 +4186,45 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
       <envs />
       <method />
     </configuration>
@@ -2910,7 +4264,35 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="false" name="app" type="AndroidRunConfigurationType" factoryName="Android Application">
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="app" type="AndroidRunConfigurationType" factoryName="Android Application" activateToolWindowBeforeRun="false">
       <module name="app" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
@@ -2944,8 +4326,42 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method />
     </configuration>
-    <list size="1">
+    <configuration default="false" name="app-native" type="AndroidNativeRunConfigurationType" factoryName="Android Native">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Hybrid" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <Native>
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+      </Native>
+      <Hybrid>
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+      </Hybrid>
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Android Application.app" />
+      <item index="1" class="java.lang.String" itemvalue="Android Native.app-native" />
     </list>
     <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
@@ -2984,15 +4400,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1920" height="1080" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3583878" sideWeight="0.4679487" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3583878" sideWeight="0.4679487" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3583878" sideWeight="0.53205127" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2742111" sideWeight="0.49786323" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36601308" sideWeight="0.50427353" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36601308" sideWeight="0.4957265" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897604" sideWeight="0.4957265" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897604" sideWeight="0.49786323" order="7" side_tool="false" content_ui="tabs" />
@@ -3000,8 +4416,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4961915" sideWeight="0.50213677" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28846154" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17574786" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -3015,6 +4430,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -3038,11 +4454,119 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="68" selection-start-line="7" selection-start-column="68" selection-end-line="7" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="70" selection-start-line="5" selection-start-column="70" selection-end-line="5" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openCVLibrary310/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///media/changliu/Research/github/OpenCVDemo/app/src/main/java/deercoder/uml/com/opencvdemo/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///media/changliu/Research/github/OpenCVDemo/app/src/main/jni/hello-android-jni.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///media/changliu/Research/github/OpenCVDemo/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///media/changliu/Research/github/OpenCVDemo/openCVLibrary310/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///media/changliu/Research/github/OpenCVDemo/gradle/wrapper/gradle-wrapper.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="33" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="68" selection-start-line="7" selection-start-column="68" selection-end-line="7" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="70" selection-start-line="5" selection-start-column="70" selection-end-line="5" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openCVLibrary310/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file:///media/changliu/Research/github/OpenCVDemo/app/src/main/java/deercoder/uml/com/opencvdemo/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3070,27 +4594,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///media/changliu/Research/github/OpenCVDemo/app/jni/OpenCVDemo.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///media/changliu/Research/github/OpenCVDemo/app/jni/OpenCVDemo.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="65" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///media/changliu/Research/github/OpenCVDemo/app/src/main/java/deercoder/uml/com/opencvdemo/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3114,22 +4624,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///media/changliu/Research/github/OpenCVDemo/app/jni/OpenCVDemo.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///media/changliu/Research/github/OpenCVDemo/app/jni/OpenCVDemo.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="65" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="65" />
           <folding />
         </state>
       </provider>
@@ -3225,13 +4719,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///media/changliu/Research/github/OpenCVDemo/gradle/wrapper/gradle-wrapper.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///media/changliu/Research/github/OpenCVDemo/OpenCVDemo.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -3274,13 +4761,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///media/changliu/Research/github/OpenCVDemo/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///media/changliu/Research/github/OpenCVDemo/app/src/main/res/layout/activity_main.xml">
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -3291,33 +4771,9 @@
         <state />
       </provider>
     </entry>
-    <entry file="file:///media/changliu/Research/github/OpenCVDemo/app/jni/OpenCVDemo.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///media/changliu/Research/github/OpenCVDemo/app/jni/OpenCVDemo.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="65" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///media/changliu/Research/github/OpenCVDemo/app/src/main/java/deercoder/uml/com/opencvdemo/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.1034484">
+        <state vertical-scroll-proportion="0.0">
           <caret line="7" column="68" selection-start-line="7" selection-start-column="68" selection-end-line="7" selection-end-column="68" />
           <folding />
         </state>
@@ -3325,41 +4781,74 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.724138">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///media/changliu/Research/github/OpenCVDemo/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.379311">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///media/changliu/Research/github/OpenCVDemo/openCVLibrary310/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.1724138">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.9310346">
+        <state vertical-scroll-proportion="0.0">
           <caret line="5" column="70" selection-start-line="5" selection-start-column="70" selection-end-line="5" selection-end-column="70" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/openCVLibrary310/build.gradle">
+    <entry file="file:///media/changliu/Research/github/OpenCVDemo/gradle/wrapper/gradle-wrapper.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33452594">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///media/changliu/Research/github/OpenCVDemo/openCVLibrary310/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///media/changliu/Research/github/OpenCVDemo/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///media/changliu/Research/github/OpenCVDemo/app/src/main/jni/hello-android-jni.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///media/changliu/Research/github/OpenCVDemo/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6994633">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openCVLibrary310/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///media/changliu/Research/github/OpenCVDemo/app/src/main/java/deercoder/uml/com/opencvdemo/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5380435">
+          <caret line="54" column="28" selection-start-line="54" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
