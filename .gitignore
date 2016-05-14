@@ -30,3 +30,6 @@ proguard/
 
 # Android Studio captures folder
 captures/
+
+# ignore the .so libs(it's copied from android sdk's armeabi,armeabi-v7a,mips, x86)
+app/src/main/jniLibs/
