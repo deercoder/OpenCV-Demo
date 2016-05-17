@@ -6,11 +6,10 @@ include $(CLEAR_VARS)
 OPENCVROOT:= /home/changliu/OpenCV-android-sdk
 OPENCV_CAMERA_MODULES:=on
 OPENCV_INSTALL_MODULES:=on
-OPENCV_LIB_TYPE:=SHARED
+OPENCV_LIB_TYPE:=shared
 include ${OPENCVROOT}/sdk/native/jni/OpenCV.mk
 
-
-LOCAL_SRC_FILES := hello-android-jni.c
+LOCAL_SRC_FILES := hello-android-jni.cpp
 LOCAL_LDLIBS += -llog
 LOCAL_MODULE := hello
 
