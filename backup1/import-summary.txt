@@ -1,0 +1,186 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From java:
+* org/
+* org/opencv/
+* org/opencv/android/
+* org/opencv/android/AsyncServiceHelper.java
+* org/opencv/android/BaseLoaderCallback.java
+* org/opencv/android/Camera2Renderer.java
+* org/opencv/android/CameraBridgeViewBase.java
+* org/opencv/android/CameraGLRendererBase.java
+* org/opencv/android/CameraGLSurfaceView.java
+* org/opencv/android/CameraRenderer.java
+* org/opencv/android/FpsMeter.java
+* org/opencv/android/InstallCallbackInterface.java
+* org/opencv/android/JavaCameraView.java
+* org/opencv/android/LoaderCallbackInterface.java
+* org/opencv/android/OpenCVLoader.java
+* org/opencv/android/StaticHelper.java
+* org/opencv/android/Utils.java
+* org/opencv/calib3d/
+* org/opencv/calib3d/Calib3d.java
+* org/opencv/calib3d/StereoBM.java
+* org/opencv/calib3d/StereoMatcher.java
+* org/opencv/calib3d/StereoSGBM.java
+* org/opencv/core/
+* org/opencv/core/Algorithm.java
+* org/opencv/core/Core.java
+* org/opencv/core/CvException.java
+* org/opencv/core/CvType.java
+* org/opencv/core/DMatch.java
+* org/opencv/core/KeyPoint.java
+* org/opencv/core/Mat.java
+* org/opencv/core/MatOfByte.java
+* org/opencv/core/MatOfDMatch.java
+* org/opencv/core/MatOfDouble.java
+* org/opencv/core/MatOfFloat.java
+* org/opencv/core/MatOfFloat4.java
+* org/opencv/core/MatOfFloat6.java
+* org/opencv/core/MatOfInt.java
+* org/opencv/core/MatOfInt4.java
+* org/opencv/core/MatOfKeyPoint.java
+* org/opencv/core/MatOfPoint.java
+* org/opencv/core/MatOfPoint2f.java
+* org/opencv/core/MatOfPoint3.java
+* org/opencv/core/MatOfPoint3f.java
+* org/opencv/core/MatOfRect.java
+* org/opencv/core/Point.java
+* org/opencv/core/Point3.java
+* org/opencv/core/Range.java
+* org/opencv/core/Rect.java
+* org/opencv/core/RotatedRect.java
+* org/opencv/core/Scalar.java
+* org/opencv/core/Size.java
+* org/opencv/core/TermCriteria.java
+* org/opencv/features2d/
+* org/opencv/features2d/DescriptorExtractor.java
+* org/opencv/features2d/DescriptorMatcher.java
+* org/opencv/features2d/FeatureDetector.java
+* org/opencv/features2d/Features2d.java
+* org/opencv/imgcodecs/
+* org/opencv/imgcodecs/Imgcodecs.java
+* org/opencv/imgproc/
+* org/opencv/imgproc/CLAHE.java
+* org/opencv/imgproc/Imgproc.java
+* org/opencv/imgproc/LineSegmentDetector.java
+* org/opencv/imgproc/Moments.java
+* org/opencv/imgproc/Subdiv2D.java
+* org/opencv/ml/
+* org/opencv/ml/ANN_MLP.java
+* org/opencv/ml/Boost.java
+* org/opencv/ml/DTrees.java
+* org/opencv/ml/EM.java
+* org/opencv/ml/KNearest.java
+* org/opencv/ml/LogisticRegression.java
+* org/opencv/ml/Ml.java
+* org/opencv/ml/NormalBayesClassifier.java
+* org/opencv/ml/RTrees.java
+* org/opencv/ml/SVM.java
+* org/opencv/ml/StatModel.java
+* org/opencv/ml/TrainData.java
+* org/opencv/objdetect/
+* org/opencv/objdetect/BaseCascadeClassifier.java
+* org/opencv/objdetect/CascadeClassifier.java
+* org/opencv/objdetect/HOGDescriptor.java
+* org/opencv/objdetect/Objdetect.java
+* org/opencv/photo/
+* org/opencv/photo/AlignExposures.java
+* org/opencv/photo/AlignMTB.java
+* org/opencv/photo/CalibrateCRF.java
+* org/opencv/photo/CalibrateDebevec.java
+* org/opencv/photo/CalibrateRobertson.java
+* org/opencv/photo/MergeDebevec.java
+* org/opencv/photo/MergeExposures.java
+* org/opencv/photo/MergeMertens.java
+* org/opencv/photo/MergeRobertson.java
+* org/opencv/photo/Photo.java
+* org/opencv/photo/Tonemap.java
+* org/opencv/photo/TonemapDrago.java
+* org/opencv/photo/TonemapDurand.java
+* org/opencv/photo/TonemapMantiuk.java
+* org/opencv/photo/TonemapReinhard.java
+* org/opencv/utils/
+* org/opencv/utils/Converters.java
+* org/opencv/video/
+* org/opencv/video/BackgroundSubtractor.java
+* org/opencv/video/BackgroundSubtractorKNN.java
+* org/opencv/video/BackgroundSubtractorMOG2.java
+* org/opencv/video/DenseOpticalFlow.java
+* org/opencv/video/DualTVL1OpticalFlow.java
+* org/opencv/video/KalmanFilter.java
+* org/opencv/video/Video.java
+* org/opencv/videoio/
+* org/opencv/videoio/VideoCapture.java
+* org/opencv/videoio/VideoWriter.java
+* org/opencv/videoio/Videoio.java
+From watershed:
+* ic_launcher-web.png
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:21.0.3
+
+Replaced Libraries with Dependencies:
+-------------------------------------
+The importer recognized the following library projects as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the source files in your project were of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the library replacement in the import wizard and try
+again:
+
+appcompat-v7 => [com.android.support:appcompat-v7:21.0.3]
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => watershed/src/main/AndroidManifest.xml
+* libs/armeabi-v7a/libnative_camera_r2.2.0.so => watershed/src/main/jniLibs/armeabi-v7a/libnative_camera_r2.2.0.so
+* libs/armeabi-v7a/libnative_camera_r2.3.3.so => watershed/src/main/jniLibs/armeabi-v7a/libnative_camera_r2.3.3.so
+* libs/armeabi-v7a/libnative_camera_r3.0.1.so => watershed/src/main/jniLibs/armeabi-v7a/libnative_camera_r3.0.1.so
+* libs/armeabi-v7a/libnative_camera_r4.0.0.so => watershed/src/main/jniLibs/armeabi-v7a/libnative_camera_r4.0.0.so
+* libs/armeabi-v7a/libnative_camera_r4.0.3.so => watershed/src/main/jniLibs/armeabi-v7a/libnative_camera_r4.0.3.so
+* libs/armeabi-v7a/libnative_camera_r4.1.1.so => watershed/src/main/jniLibs/armeabi-v7a/libnative_camera_r4.1.1.so
+* libs/armeabi-v7a/libnative_camera_r4.2.0.so => watershed/src/main/jniLibs/armeabi-v7a/libnative_camera_r4.2.0.so
+* libs/armeabi-v7a/libnative_camera_r4.3.0.so => watershed/src/main/jniLibs/armeabi-v7a/libnative_camera_r4.3.0.so
+* libs/armeabi-v7a/libnative_camera_r4.4.0.so => watershed/src/main/jniLibs/armeabi-v7a/libnative_camera_r4.4.0.so
+* libs/armeabi-v7a/libopencv_info.so => watershed/src/main/jniLibs/armeabi-v7a/libopencv_info.so
+* libs/armeabi-v7a/libopencv_java.so => watershed/src/main/jniLibs/armeabi-v7a/libopencv_java.so
+* res/ => watershed/src/main/res/
+* src/ => watershed/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
